@@ -1,0 +1,52 @@
+{
+    "medical-appointment":{
+        "success":true,
+        "message":"Chamado Aberto",
+        "data": {
+            "platform_name":"Teste Telemedicina",
+            "platform_document":"05.228.766/0001-41",
+            "start_hour":"14:05",
+            "doctor_name":"Médico Teste",
+            "doctor_crm":123456,
+            "crm_state":"MG",
+            "doctor_specialty":"Ortopedista",
+            "id_medical_appointment":1,
+            "call_link":"https://teste.com",
+            "queue_data": {
+                "queue_position":"",
+                "queue_time":""
+            }
+        }
+    },
+    "medical-appointment-queue":{
+        "success":true,
+        "message":"Chamado em Espera",
+        "data": {
+            "platform_name":"",
+            "platform_document":"",
+            "start_hour":"",
+            "doctor_name":"",
+            "doctor_crm":"",
+            "crm_state":"",
+            "doctor_specialty":"",
+            "id_medical_appointment":2,
+            "call_link":"",
+            "queue_data": {
+                "queue_position":"3",
+                "queue_time":"5"
+            }
+        }
+    },
+    "sync-files-medical-appointment":{
+        "success":true,
+        "message":"Arquivos retornados",
+        "files":{
+            "0":"https://arquivo1.com",
+            "1":"https://arquivo2.com"
+        }
+    },
+    "cancel-medical-appointment":{
+        "success":true,
+        "message":"Chamado encerrado"
+    }
+}
