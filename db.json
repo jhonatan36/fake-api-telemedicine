@@ -16,7 +16,7 @@
     },
     "update-medical-appointment":[
         {
-            "id" : 1,
+            "id_medical_appointment":1,
             "platform_name":"Teste Telemedicina",
             "platform_document":"05.228.766/0001-41",
             "start_hour":"14:05",
@@ -24,7 +24,6 @@
             "doctor_crm":123456,
             "crm_state":"MG",
             "doctor_specialty":"Ortopedista",
-            "id_medical_appointment":1,
             "call_link":"https://teste.com",
             "queue_data": {
                 "queue_position":"",
@@ -32,7 +31,7 @@
             }
         },
         {
-            "id":2,
+            "id_medical_appointment":2,
             "platform_name":"",
             "platform_document":"",
             "start_hour":"",
@@ -40,7 +39,6 @@
             "doctor_crm":"",
             "crm_state":"",
             "doctor_specialty":"",
-            "id_medical_appointment":2,
             "call_link":"",
             "queue_data": {
                 "queue_position":"3",
@@ -63,13 +61,38 @@
             "queue_time":"5"
         }
     },
-    "sync-files-medical-appointment":{
-        "files":{
-            "0":"https://arquivo1.com",
-            "1":"https://arquivo2.com"
+    "sync-files-medical-appointment":[
+        {
+            "id_medical_appointment":1,
+            "files":[
+                {
+                    "name":"teste1",
+                    "link":"https://arquivo1.com"
+                },
+                {
+                    "name":"teste2",
+                    "link":"https://arquivo2.com"
+                }
+            ]
+        },
+        {
+            "id_medical_appointment":2,
+            "files":[
+                {
+                    "name":"teste3",
+                    "link":"https://arquivo3.com"
+                },
+                {
+                    "name":"teste4",
+                    "link":"https://arquivo4.com"
+                }
+            ]
         }
-    },
-    "cancel-medical-appointment":{
-        "message":"Chamado encerrado"
-    }
+    ],
+    "cancel-medical-appointment":[
+        {
+            "id_medical_appointment":1,
+            "msg":"Cadastrado com sucesso"
+        }
+    ]
 }
