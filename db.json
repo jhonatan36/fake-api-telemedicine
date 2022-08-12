@@ -92,7 +92,7 @@
     "cancel-medical-appointment":[
         {
             "id_medical_appointment":1,
-            "msg":"Cadastrado com sucesso"
+            "msg":"Cancelado com sucesso"
         }
     ]
 }
